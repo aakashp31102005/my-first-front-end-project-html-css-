@@ -1,0 +1,148 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    font-family: var(--font-family);
+}
+body {
+    margin: 0; 
+    padding: 0;
+    position: relative; 
+    height: 100vh; 
+  }
+:root{
+    --font-clr:rgb(109, 116, 130);
+    --font-family: "Open Sans", sans-serif;
+}
+#weblogo{
+    margin-top: 12px;
+}
+
+.marea {
+    background-color: rgb(248, 246, 246);
+    height: 350px;
+    width: 300px;
+    box-shadow: 1px 2px 20px rgba(108, 105, 105, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.marea #sin{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size:1.2rem;
+    margin-top:5px;
+    margin-left:12px;
+    margin-bottom:0px;
+}
+.marea #sinquote{
+    margin-top:0.1rem;
+    font-size:10px;
+    margin-left:12px;
+    font-weight: 400;
+}
+
+.marea #user_name{
+    margin-left:10px ;
+    margin-bottom: 8px;
+}
+.marea #password{
+    margin-left:5px ;
+    margin-bottom:6px;
+}
+
+.marea #fpassoword{
+    margin-left:10px ;
+    font-size:11px;
+}
+.marea #button,#appleaccount{
+    margin-left:10px;
+    margin-top:15px;
+
+}
+input[type="text"] {
+    width:270px;
+    height:30px;
+    border:1.1px solid  rgba(29, 109, 221, 0.932);
+    outline:none; 
+}
+input[type="password"] {
+    width:270px;
+    height:30px;
+    border:1.1px solid rgba(29, 109, 221, 0.932);
+}
+input[type="text"]:focus{
+    border:1.6px solid;
+    border-color: rgba(12, 85, 188, 0.932);
+}
+input[type="password"]:focus {
+    outline: none; /*remove default outline*/
+    border: 1.56px solid; 
+    border-color: rgba(29, 109, 221, 0.932);
+  }
+
+.marea #button,#appleaccount{
+    cursor: pointer;
+    width:270px;
+    height:40px;
+    color:rgba(255, 255, 255, 0.932);
+    background-color: rgba(29, 109, 221, 0.932);
+    border: 5px;
+    border-radius: 30px;
+}
+  
+
+  .marea .orseparator{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+.marea .orseparator hr {
+    border: none;
+    border-top: 2px solid #cfcfcf;
+    flex-grow: 1; 
+    margin: 0 10px; 
+  }
+
+.marea .orseparator span {
+    padding: 0 10px;
+    font-size: 16px;
+    color: #333;
+  }
+.marea #appleaccount #logoimage{
+    width: 1.2rem;
+    margin-right: 15px;
+    margin-bottom:1px;
+    
+}
+
+.marea #appleaccount{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.newuser {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    text-align: center;
+
+}
+.buttom{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    font-size:11px;
+}
+.buttom #language{
+    list-style: circle;
+    border-style:none;
+    margin-left:10px ;
+}
